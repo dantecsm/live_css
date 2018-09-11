@@ -496,9 +496,9 @@
      }
      .kumaEye {
        position: relative;
-       width: 1px;
+       width: 2px;
        height: 0;
-       border: 1px solid;
+       border: .5px solid;
      }
      .kumaEye.right {
        top: 20%;

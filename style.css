@@ -8,6 +8,7 @@ body{
     flex:1;
     height: 40%;
     padding: 10px;
+    width: 100vw;
   }
   .preview-wrapper{
     z-index: 1;
@@ -19,6 +20,8 @@ body{
     overflow: auto;
     height: 100%;
     font-size: 2rem;
+    width: 100vw;
+    overflow-x: hidden;
   }
   .umr {
     position: relative;
