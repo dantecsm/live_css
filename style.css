@@ -4,17 +4,19 @@ body{
     height: 100vh;
   }
   .code-wrapper{
+    z-index: -1;
     flex:1;
     height: 40%;
     padding: 10px;
   }
   .preview-wrapper{
+    z-index: 1;
     flex: 1;
     height: 60%;
     background: #ddd;
   }
   #code{
-    overflow: -webkit-paged-y;
+    overflow: auto;
     height: 100%;
     font-size: 2rem;
   }
@@ -25,6 +27,7 @@ body{
     transform: scale(3);
   }
   .actions{
+    z-index: 2;
     position: absolute;
     right: 0;
     top: 0;
@@ -36,7 +39,7 @@ body{
     background: #ddd;
     padding: 32px 40px;
     font-size: 2rem;
-    border: none;
+    border: 1px solid;
   }
   .actions>button.active{
     background-color: #f08a5a;
