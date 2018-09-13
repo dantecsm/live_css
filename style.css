@@ -12,7 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: #aff;
+    background-color: #ddd;
   }
   .code-wrapper{
     z-index: -1;
@@ -25,7 +25,7 @@ body{
     z-index: 1;
     flex: 1;
     height: 60%;
-    background: #aff;
+    background: #ddd;
   }
   #code{
     overflow: auto;
