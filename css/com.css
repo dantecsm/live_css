@@ -2,6 +2,8 @@ body {
   flex-direction: row;
   height: 100vh;
   overflow: hidden;
+  padding: 0 10vw;
+  background-color: #000;
 }
 
 .code-wrapper {
@@ -19,12 +21,13 @@ body {
 }
 
 .umr {
-    transform: scale(1.5);
-  }
+  transform: scale(1.5);
+}
 
 .actions {
   flex-direction: row;
   position: fixed;
+  right: 10vw;
 }
 
 .actions >button{
