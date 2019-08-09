@@ -6,19 +6,23 @@
 
 
 
+### 设计稿
+
+![原型](http://qn.simenchan.xyz/proto.png)
 
 
-### 预览
+
+### 效果
 
 **PC端**
 
-![pc](http://qn.simenchan.xyz/pc.jpg)
+![pc](http://qn.simenchan.xyz/Pc.png)
 
 
 
 **移动端**
 
-![client.png](http://qn.simenchan.xyz/client.png)
+![client.png](http://qn.simenchan.xyz/mobile.png)
 
 
 
