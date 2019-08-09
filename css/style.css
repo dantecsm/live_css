@@ -8,8 +8,8 @@
   display:none
 }
 
-body{
-    display: flex;
+body {
+	display: flex;
     flex-direction: column;
     height: 100vh;
     background-color: #ddd;
@@ -72,3 +72,20 @@ body{
     justify-content: center;
     align-items: center;
   }
+
+/* 处理 IE 或 ME 样式兼容 */
+  
+body .IE-wrapper{
+	display: none;
+}
+
+body.IE .IE-wrapper {
+	display: block;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	color: white;
+	font-family: "Courier New";
+	font-weight: bold;
+}
