@@ -6,10 +6,6 @@
 
 
 
-### 设计稿
-
-![原型](http://qn.simenchan.xyz/proto.png)
-
 
 
 ### 效果
@@ -23,6 +19,8 @@
 **移动端**
 
 ![client.png](http://qn.simenchan.xyz/mobile.png)
+
+
 
 
 
