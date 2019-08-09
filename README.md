@@ -6,6 +6,24 @@
 
 
 
+
+
+### 预览
+
+**PC端**
+
+![pc](http://qn.simenchan.xyz/pc.jpg)
+
+
+
+**移动端**
+
+![client.png](http://qn.simenchan.xyz/client.png)
+
+
+
+
+
 ### 参考资料 & 相关博客
 
 [创意来源](https://fangyinghang.com/make-a-pikachu/)
@@ -16,14 +34,3 @@
 
 
 
-### 预览
-
-**[css稿](http://js.jirengu.com/qevov/34/edit)**
-
-![pc](http://qn.simenchan.xyz/pc.jpg)
-
-
-
-**移动端**
-
-![client.png](http://qn.simenchan.xyz/client.png)

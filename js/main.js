@@ -1,25 +1,30 @@
 !function () {
   let duration = 120
   let n = 0
-  $('.actions').on('click', 'button', function (e) {
-    let $button = $(e.currentTarget)
-    let speed = $button.attr('data-speed')
-    $button.addClass('active')
-      .siblings('.active').removeClass('active')
-    switch (speed) {
-      case 'slow':
-        duration = 360
-        break
-      case 'normal':
-        duration = 120
-        break
-      case 'fast':
-        duration = 40
-        break
-      case 'immediate':
-        n = code.length
-    }
+  bindEvents()
+  
+  function bindEvents() {
+	$('.actions').on('click', 'button', function (e) {
+	    let $button = $(e.currentTarget)
+	    let speed = $button.attr('data-speed')
+	    $button.addClass('active')
+	      .siblings('.active').removeClass('active')
+	    switch (speed) {
+	      case 'slow':
+	        duration = 360
+	        break
+	      case 'normal':
+	        duration = 120
+	        break
+	      case 'fast':
+	        duration = 40
+	        break
+	      case 'immediate':
+	        n = code.length
+	    }
   })
+  }
+  
   function writeCode(prefix, code, fn) {
     let container = document.querySelector('#code')
     let styleTag = document.querySelector('#styleTag')
@@ -542,6 +547,7 @@
        * 好了，这只小埋送给你
        */
   `
+  
   writeCode('', code)
 
 }.call()
