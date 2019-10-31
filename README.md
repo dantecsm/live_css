@@ -1,9 +1,3 @@
-### 预览
-
-[用代码画一只小埋给你看](https://music.163.com/#/video?id=AFA5B77CF74FC9CD8E44736209B35EB2)
-
-
-
 ### 效果
 
 ![pc](http://qn.simenchan.xyz/Pc.png)
